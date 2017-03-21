@@ -1,0 +1,557 @@
+/* STYLE.CSS */
+body{
+    background-image:url("../images/bgg.png");
+    font-size: 15px;
+    
+}
+#corps{
+    width: 80%;
+    margin: auto;
+    outline: 1px solid red;
+    
+}
+a +h1{
+    display: inline-block;
+}
+/* ***************** POLICE EXOTIQUE ******************* */
+/* Définition des polices personnalisées */
+
+@font-face{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    font-family: 'Lucida Calligraphy';
+    width: 500px;
+    /*outline: 1px solid red;*/
+}
+h3 > a{
+    font-family: 'Dayrom';
+    /*outline: 1px solid red;*/
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+}
+/*aside >*/ h3{
+    /*font-family: 'BallparkWeiner';*/
+    font-family: 'Dayrom';
+}
+aside{
+    margin: 5px;
+}
+aside p{
+    padding: 2px;
+}
+#imgh1{
+    /*outline: 1px solid red;*/
+}
+.inscription{
+    float: right;
+}
+blockquote{
+    font-family: 'BallparkWeiner';
+    font-size: 25px;
+    margin-top: 0px;
+    margin-left: 200px;
+}
+blockquote:before{
+    content: open-quote;
+}
+blockquote:after{
+    content: close-quote;
+}
+/* FIN ENTETE */
+/* SECTION DE LA PAGE */
+section{
+    /*outline: 1px solid black;*/
+    background-color: rgba(0,0,255,0.3);
+    border-bottom: 1px solid black;
+}
+article{
+    width: auto;
+    
+}
+article p{
+    width: 59%;
+    /*outline: 1px solid green;*/
+    margin-top: 0px;
+    
+    
+}
+article p , figure{
+    display: inline-block;
+    vertical-align: top;
+}
+.liresuite{
+    color: red;
+}
+
+aside{
+    max-width: 25%;
+    /*outline: 1px solid blue;*/
+    float: right;
+    margin-right: 5px;
+}
+#lessections{
+    /*outline: 1px solid cyan;*/
+    max-width: 70%;
+}
+#lessections,aside{
+    display: inline-block;
+    vertical-align: top;
+}
+#NDH p,figure{
+    display: inline-block;
+    
+}
+[data-info]{
+    cursor: help;
+    border-bottom: 1px solid green;
+    position: relative;
+    
+}
+[data-info]:hover:after{
+    content: attr(data-info);
+    font-size: 11px;
+    position: absolute;
+    top: 1em ;right:-10px;
+    white-space: nowrap;
+    color:red;
+   /* background: #cde;*/
+}
+figure{
+    padding: 0px;
+   /* outline: 1px solid brown;*/
+}
+video{
+    max-width: 250px;
+    margin: 0px;
+}
+/* FIN SECTION */
+/* **************************************** NAVIGATION****************************** */
+nav li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 130px;
+    
+    
+}
+nav li:hover{
+    color: rgb(125,125,125);
+    border-bottom: 3px inset red;
+    
+}
+nav{
+    outline: 1px solid blue;
+    
+}
+/* LES ELEMENTS DE FORMULAIRES */
+label{
+    display: block;
+    width: 150px;
+    float: left;
+}
+
+#perso{
+    width: 500px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 12px;
+}
+#perso p {
+    font-family: 'Dayrom';
+}
+#perso> p:before{
+    content: open-quote;
+}
+#perso >p:after{
+    content: close-quote;
+}
+/*[type="submit"]{
+    background: #555;
+    color: white;
+    width: auto;
+    border: 0px;
+}*/
+/*.validite:invalid{
+    border-right: 8px solid red;
+}
+.validete:valid{
+    border-right: 8px solid green;
+}
+validite:invalid + span:after{
+    content: "Mauvaise valeure";
+}*/
+textarea{
+    width: 250px;
+    height: 150px;
+}
+/* A PROPOS */
+img[alt="photo perso"]{
+    text-align: center;
+    /*outline: 1px solid red;*/
+    margin-left: 80px;
+    
+}
+aside{
+    border: 1px solid blue;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px blue;
+}
+aside p{
+    margin-top: 0px;
+}
+aside h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* ***********************************  PIED DE PAGE  ************************************* */
+footer{
+    /*outline: 1px solid blue;*/
+}
+
+#structpage ul,#structpage h3{
+    
+    margin: 0;
+}
+#structpage ul{
+    list-style-type: none;
+}
+#structpage{
+   
+    
+}
+#follow{
+  
+}
+#structpage,#follow{
+    margin-left: 150px;
+    display: inline-block;
+     vertical-align: top;
+}
+.copyright{
+    text-align: center;
+    font-family: 'Dayrom';
+}
+
+.hautdepage{
+    font-family: 'Dayrom';
+    margin-top: 0;
+    padding: 0;
+    float: right;
+}
+.rotation{
+    
+    /*transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: linear;*/
+    
+}
+.rotation:hover{
+    /*transform: rotate(180deg);*/
+    /*transform: rotate3d(20deg,15deg,10deg);*/
+    transform: rotate3d(1,0,0,70deg);
+}
+/*@keyframes animationfooter{
+    
+}*/
+
+/* ***********************************  FAQ  ****************************** */
+#theflex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.conteneurfaq,.conteneurfaq p{
+    
+    text-align: center;
+    margin: 0;
+}
+.conteneurfaq{
+    min-width: 150px;
+    max-width: 150px;
+    max-height: 250px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.conteneurfaq p:before{
+    content: "(";
+}
+.conteneurfaq p:after{
+    content: ")";
+}
+#avantflex{
+    text-align: center;
+    font-family: 'Dayrom';
+    font-size: x-large;
+    margin-top: 2px;
+}
+/* **********************************  TABLE  ***************************** */
+table{
+    border-spacing: 2px;
+    border-collapse: separate;
+    margin: auto;
+    width: 25em;
+}
+table caption{
+    color: #555;
+    font-style: italic;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+td,th{
+    border: 1px solid green;
+    padding: 6px 12px;
+    
+}
+tr:nth-child(odd){ /* rangé pair */
+    background: #eee;
+}
+tr:nth-child(even){
+    background: #ddd;
+}
+td:last-child,th:last-child{
+    text-align: right;
+}
+th{
+    text-align: left;
+}
+tr:first-child{
+    background: #cba;
+    color:white;
+}
+table tr+tr:hover{
+    background: #bbb;
+    color:white;
+}
+.tableau{
+    text-align: center;
+    font-family: 'Dayrom';
+    font-size: large;
+}
+/* **********************************  MEDIA QUERIES ************************* */
+@media screen and (max-width:400px){
+    header blockquote, aside,.hautdepage,figure,#lessections img{
+        display: none;
+    }
+    body{
+        width: 400px;
+        max-width: 400px;
+    }
+    #lessections{
+        max-width: 100%;
+    }
+    
+    footer{
+        display: block;
+    }
+    header h1{
+        font-size: 15px;
+    }
+    header img, header h1{
+        display: inline-block;
+        width: auto;
+        margin: 0;
+    }
+    nav{
+        padding: 0;
+        margin: 0;
+        
+    }
+    nav li{
+        display: block;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    nav li:hover{
+        border: none;
+    }
+    /* =============================== FOOTER ========================= */
+    #structpage,#follow{
+        display: block;
+        padding-left: 25px;
+        margin: 0;
+    }
+    /* =============================== PAGE CONTACT ========================= */
+    #perso{
+        width: auto;
+    }
+    #tableau,table{
+        width: auto;
+    }
+    table{
+        padding: 0;
+        border-collapse: collapse;
+        display: table-cell;
+    }
+    table td{
+        padding: 0;
+    }
+}
+/* ==================================================================*/
+@media screen and (min-width:400px) and (max-width:599px){
+    
+    header blockquote, aside,.hautdepage,figure,#lessections img{
+        display: none;
+    }
+    
+    #lessections{
+        max-width: 100%;
+    }
+    
+    footer{
+        display: block;
+    }
+    header h1{
+        font-size: 25px;
+    }
+    header imgh1, header h1{
+        display: inline-block;
+        width: auto;
+        margin: 0;
+    }
+    nav{
+        padding: 0;
+        margin: 0;
+        
+    }
+    nav li{
+        display: block;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    nav li:hover{
+        border: none;
+    }
+    /* =============================== FOOTER ========================= */
+    #structpage,#follow{
+        display: block;
+        padding-left: 25px;
+        margin: 0;
+    }
+    /* =============================== PAGE CONTACT ========================= */
+    #perso{
+        width: auto;
+        outline: 1px solid red;
+    }
+    #tableau,table{
+        width: auto;
+    }
+    
+}
+
+/* ==================================================================*/
+
+@media screen and (min-width:600px) and (max-width:750px){
+    #corps{
+        width: auto;
+        padding: 0;
+        margin: 0;
+        margin-left: 5px;
+    }
+    /* ********************* HEADER ***************** */
+    header{
+        outline: 1px solid red;
+        height: auto;
+    }
+    header h1{
+        outline: 1px solid red;
+       
+        margin: 0px 5px 5px;
+        width: 60%;
+    }
+    header blockquote{
+        display: none;
+    }
+    /* *************** NAV *************** */
+    nav li{
+        outline: 1px solid black;
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+    nav ul{
+        outline: 1px solid red;
+        padding: 0;
+    }
+    nav{
+        margin-bottom: 5px;
+    }
+    /* ********************* FIN NAV ******************* */
+    
+    /* ********************* MAIN ******************* */
+    main img, figure,aside{
+        display: none;
+    }
+    main,#lessections{
+        outline: 1px solid purple;
+    }
+    #lessections, section{
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        
+    }
+    #lessections{
+        display: block;
+        max-width: 100%;
+    }
+    
+    #lessections section article{
+        width: 100%;
+    }
+    /* *************************** FOOTER ********************** */
+    #structpage,#follow{
+        display: inline-block;
+        
+        margin: 0;
+        
+    }
+    footer > #structpage,footer > #follow{
+        width: 40%;
+        outline: 1px solid black;
+        
+    }
+    footer > #structpage{
+        padding-left: 30px;
+    }
+}
+/* ==================================================================*/
+@media screen and (min-width:751px) and (max-width:1064px){
+    figure{
+        display: none;
+    }
+    nav li{
+        display: inline-block;
+        margin-left: 80px;
+    }
+    header h1{
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,64 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Page principal</title>
+        <link rel="stylesheet" href="styles/base.css" />
+        <link rel="stylesheet" href="styles/style.css" />
+    </head>
+    <body>
+        <header id="hautpage">
+            <div id="imgh1">
+            <a href="index.html"><img src="images/l2.png" alt="banniere" title="banniere" /></a>
+            <h1>Blog informatique</h1><br />
+                </div>
+            <blockquote>Un oeil sur le monde informatique</blockquote>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Acceuil</a></li>
+                    <li><a href="contact.html">Contactez-moi</a></li>
+                    <li><a href="apropos.html">A propos</a></li>
+                    <li><a href="faq.html">F.A.Qs</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="perso">
+                <p>
+                    Attention cette partie est pour des messages personnelles.
+                    Pour des questions rélatives à une informations suivez le lien de la section ou cliquez sur lire la suite ou googler. En plus dans la F.A.Qs chaque section fait reference à un site bien complet.
+                </p>
+            </div>
+                <form action="mailto:theevilmonster93@gmail.com" method="post">
+                    <fieldset>
+                <legend>Informations et Message:</legend>
+                    <p><label for="nom">Nom: </label><input type="text" name="nom" id="nom" placeholder="Ex: Monster" autofocus required class="validite"/><span></span><br /><br />
+                    <label for="email">E-mail: </label><input type="email" id="email" name="email" placeholder="toto@tata.com" required class="validite"/><span></span><br /><br />
+                        <label for="message">Votre Message: </label><textarea placeholder="Votre message ici" name="message" id="message" required></textarea><span></span><br /><br /></p>
+                        </fieldset>
+                    <p><input type="submit" value="Envoyer" /> <input type="reset" value="Annuler" /></p>
+                </form>
+        </main>
+        <hr />
+        <footer>
+            <div id="structpage">
+                <h3>Rendez-vous:</h3>
+                <ul>
+                    <li><a href="index.html">Acceuil</a></li>
+                    <li><a href="contact.html">Contactez-moi</a></li>
+                    <li><a href="apropos.html">A propos</a></li>
+                    <li><a href="faq.html">F.A.Qs</a></li>
+                </ul>
+            </div>
+            <div id="follow">
+                <h3>Suivez-moi sur:</h3>
+                <img src="images/fb.png" alt="Facebook"  class="rotation" />
+                <img src="images/tweet.png" alt="Tweeter" class="rotation" />
+                <img src="images/ista.png" alt="Istagram" class="rotation" />
+            </div>
+            
+            <p class="hautdepage"><a href="index.html#hautpage" >Haut de page</a></p>
+            <p class="copyright">Copyright &copy; 2016-2017 Université Blaise Pascal</p>
+        </footer>
+    </body>
+</html>
